@@ -9,6 +9,9 @@ module AND_4bit_tb;
     );
 
     initial begin
+		$dumpfile("AND_4bit_tb.vcd");
+		$dumpvars(0, AND_4bit_tb);
+
         // test case 1
         A = 4'b0000; B = 4'b0000; #10;
         $display("A=%b B=%b | Y=%b", A, B, Y);
