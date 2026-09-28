@@ -1,0 +1,15 @@
+# build outputs
+*.o
+*.out
+*.vvp
+
+# waveforms
+*.vcd
+
+# build folders
+build/
+waves/
+
+# tool/editor
+.vscode/
+*.log
