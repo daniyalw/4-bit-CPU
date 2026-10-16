@@ -9,7 +9,7 @@ module AND_4bit_tb;
     );
 
     initial begin
-		$dumpfile("AND_4bit_tb.vcd");
+		$dumpfile("AND_4bit.vcd");
 		$dumpvars(0, AND_4bit_tb);
 
         // test case 1
